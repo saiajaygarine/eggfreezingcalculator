@@ -153,12 +153,43 @@ ul {
     text-decoration: underline;
 }
 
+/* Footer Section */
 footer {
+    background: rgba(0, 0, 0, 0.3); /* Transparent dark background */
+    color: white; /* White text color */
+    padding: 15px 20px; /* Reduced padding for a thin footer */
     text-align: center;
-    margin-top: 40px;
-    font-size: 1.1em;
-    color: #333;
+    font-size: 1em; /* Moderate font size */
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    letter-spacing: 1px; /* Slightly increased letter-spacing for elegance */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
+
+/* Footer Text */
+footer p {
+    font-size: 1em;
+    color: #fff;
+    margin: 5px 0; /* Minimal margin for compactness */
+}
+
+footer .credits {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.7); /* Slightly faded text */
+    margin-top: 5px;
+}
+
+/* Hover Effect */
+footer:hover {
+    background: rgba(0, 0, 0, 0.4); /* Darken slightly on hover */
+    color: #fff;
+}
+
+footer p, footer .credits {
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+
 /* Video Container */
 .video-container {
     max-width: 90%; /* Make it responsive */
